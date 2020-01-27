@@ -1,0 +1,13 @@
+[[import-porduct]]
+== Upload products
+
+====== Request
+include::{snippets}/product-importer-controller-test/upload-file/curl-request.adoc[]
+====== Response
+include::{snippets}/product-importer-controller-test/upload-file/http-response.adoc[]
+
+==== Error
+====== Request where company is not register
+include::{snippets}/product-importer-controller-test/upload-file-of-unregisted-company/curl-request.adoc[]
+====== Response
+include::{snippets}/product-importer-controller-test/upload-file-of-unregisted-company/http-response.adoc[]

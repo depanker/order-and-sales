@@ -1,0 +1,15 @@
+[[register-company]]
+== Register Company
+_id and version fields should be removed from all requests._
+_Mapping fields is the information about csv headers when parsing product csv_
+
+====== Request
+include::{snippets}/register-company-controller-test/register/curl-request.adoc[]
+====== Response
+include::{snippets}/register-company-controller-test/register/http-response.adoc[]
+
+==== Error
+====== Request
+include::{snippets}/register-company-controller-test/register-error/curl-request.adoc[]
+====== Response
+include::{snippets}/register-company-controller-test/register-error/http-response.adoc[]

@@ -1,0 +1,17 @@
+[[revenue-data-data]]
+== Revenue report
+
+====== Request
+include::{snippets}/revenue-report-controller-test/get-revenue-report/curl-request.adoc[]
+====== Response
+include::{snippets}/revenue-report-controller-test/get-revenue-report/http-response.adoc[]
+
+==== Error
+====== Request where company is not register
+include::{snippets}/revenue-report-controller-test/get-revenue-for-unregistered-company/curl-request.adoc[]
+====== Response
+include::{snippets}/revenue-report-controller-test/get-revenue-for-unregistered-company/http-response.adoc[]
+====== Request when no sales data is present
+include::{snippets}/revenue-report-controller-test/get-revenue-report-when-not-datais-present/curl-request.adoc[]
+====== Response
+include::{snippets}/revenue-report-controller-test/get-revenue-report-when-not-datais-present/http-response.adoc[]

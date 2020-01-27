@@ -1,0 +1,17 @@
+[[net-profit]]
+== Net-Profit report
+
+====== Request
+include::{snippets}/net-profit-report-controller-test/get-revenue-report/curl-request.adoc[]
+====== Response
+include::{snippets}/net-profit-report-controller-test/get-revenue-report/http-response.adoc[]
+
+==== Error
+====== Request when company is not registered
+include::{snippets}/net-profit-report-controller-test/get-revenue-for-unregistered-company/curl-request.adoc[]
+====== Response
+include::{snippets}/net-profit-report-controller-test/get-revenue-for-unregistered-company/http-response.adoc[]
+====== Request when not data is present
+include::{snippets}/net-profit-report-controller-test/get-revenue-report-when-not-datais-present/curl-request.adoc[]
+====== Response
+include::{snippets}/net-profit-report-controller-test/get-revenue-report-when-not-datais-present/http-response.adoc[]

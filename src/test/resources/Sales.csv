@@ -1,0 +1,4 @@
+Company,Order date,Order number,Product Id,Quantity,Sale price,Currency
+Acme corporation,01/05/19,1,2,3,19.99,USD
+,,,5,1,49.99,USD
+,,,4,12,5.99,USD

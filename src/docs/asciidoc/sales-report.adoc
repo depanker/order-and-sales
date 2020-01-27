@@ -1,0 +1,13 @@
+[[sales-report]]
+== Sales report
+
+====== Request
+include::{snippets}/sales-report-controller-test/get-report/curl-request.adoc[]
+====== Response
+include::{snippets}/sales-report-controller-test/get-report/http-response.adoc[]
+
+==== Error
+====== Request when not data is present
+include::{snippets}/sales-report-controller-test/get-no-data/curl-request.adoc[]
+====== Response
+include::{snippets}/sales-report-controller-test/get-no-data/http-response.adoc[]

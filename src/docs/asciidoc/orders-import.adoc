@@ -1,0 +1,13 @@
+[[import-sales-data]]
+== Upload sales report
+
+====== Request
+include::{snippets}/sales-importer-controller-test/upload-file/curl-request.adoc[]
+====== Response
+include::{snippets}/sales-importer-controller-test/upload-file/http-response.adoc[]
+
+==== Error
+====== Request where company is not register
+include::{snippets}/sales-importer-controller-test/upload-file-invlaid-input/curl-request.adoc[]
+====== Response
+include::{snippets}/sales-importer-controller-test/upload-file-invlaid-input/http-response.adoc[]
